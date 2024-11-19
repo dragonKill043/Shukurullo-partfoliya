@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background-color: #0A0A0A;
+}
+
+.header-container {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header-logo {
+    display: flex;
+}
+
+.header-list {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+
+.header-link {
+    text-decoration: none;
+    color: #C7C7C7;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.header-menu{
+    display: flex;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width:640px) {
+    .header{
+        padding-top: 16px;
+        padding-top: 16px;
+    }
+    .header-menu{
+        display: flex;
+    }
+    .header-list{
+        display: none;
+    }
+}
+
+.hero {
+    padding-top: 30px;
+    padding-bottom: 80px;
+    background: #0A0A0A;
+}
+
+.hero-container {
+    max-width: 1184px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+
+.hero-title {
+    font-family: Bebas Neue, sans-serif;
+    font-size: 59px;
+    font-weight: 400;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.hero-text {
+    font-family: Manrope, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.hero-btn {
+    display: flex;
+    align-items: center;
+    padding-left: 19px;
+    padding-right: 6px;
+    border-radius: 100px;
+    background-color: #D3E97A;
+    border: none;
+}
+
+.hero-a {
+    text-decoration: none;
+    font-family: Manrope, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #0A0A0A;
+    text-transform: uppercase;
+}
+
+.hero-container3 {
+    display: flex;
+    gap: 16px;
+}
+
+.hero-container4 {
+    display: flex;
+    gap: 16px;
+}
+
+.hero-img4 {
+    display: flex;
+    max-width: 600px;
+}
